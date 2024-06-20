@@ -6,8 +6,14 @@ inherit_gem:
   rubocop-rspec:
     - "config/default.yml"
 
-Metrics/LineLength:
+AllCops:
+  SuggestExtensions: false
+
+Layout/LineLength:
+  Enabled: true
   Max: 80
+  AllowedPatterns:
+    - '^\s*#'
   Exclude:
     - "*.gemspec"
 
