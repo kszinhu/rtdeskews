@@ -6,5 +6,6 @@ require "mini_magick"
 
 # Source
 require "rtdeskew/configuration"
-require "rtdeskew/version"
+require "rtdeskew/processor"
 require "rtdeskew/errors"
+require "rtdeskew/version"

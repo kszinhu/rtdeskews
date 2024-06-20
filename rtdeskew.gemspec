@@ -22,6 +22,8 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency "json"
   s.add_runtime_dependency "mini_magick"
+  s.add_runtime_dependency "open3"
+  s.add_runtime_dependency "concurrent-ruby"
 
   s.add_development_dependency "bundler",                   "~> 2.4"
   s.add_development_dependency "pry-byebug",                "~> 3.6"
